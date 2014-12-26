@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flaticon WebFont</title>
+    <link rel="stylesheet" type="text/css" href="flaticon.css">
+    <meta charset="UTF-8">
+    <style>
+    body {
+        font-family: sans-serif;
+        line-height: 1.5;
+        font-size: 16px;
+        padding: 20px;
+        color:#333;
+    }
+    * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-family: Flaticon;
+        font-size: 30px;
+        font-style: normal;
+        margin-left: 20px;
+        color: #333;
+    }
+    .image p {
+		font-size: 12px;
+		margin: 0px;
+		clear: none;
+		width: 300px;
+		line-height: 40px;
+	}
+    .text {
+        float: left;
+        font-size:14px;
+        margin-top: 15px;
+    }
+    .text ul {
+        margin-left:0px;
+        color:#111;
+        margin-bottom:20px;
+    }
+    .text .ex {
+        font-size:12px;
+        color:#666;
+        margin-left:35px;
+        display:block;
+    }
+    .text ul li {
+        margin-top:10px;
+        list-style:none;
+    }
+    .num {
+        background:#66A523;
+        color:#fff;
+        border-radius:20px;
+        padding:1px;
+        display:inline-block;
+        width:22px;
+        height:22px;
+        text-align:center;
+        margin-right: 5px;
+    }
+    .text ul strong {
+        font-weight:normal;
+        color:#000;
+    }
+    .image {
+        width: 280px;
+        float: left;
+        margin-bottom: 15px;
+        margin-right: 30px;
+    }
+    #glyphs {
+        clear: both;
+    }
+    .image p:nth-child(even) i {
+        clear: none;
+    }
+    .glyph {
+        display: inline-block;
+        width: 120px;
+        margin: 10px;
+        text-align: center;
+        vertical-align: top;
+        background: #FFF;
+    }
+    .glyph .glyph-icon {
+        padding: 10px;
+        display: block;
+        font-family:"Flaticon";
+        font-size: 64px;
+        line-height: 1;
+    }
+    .glyph .glyph-icon:before {
+        font-size: 64px;
+        color: #666;
+        margin-left: 0;
+    }
+    .class-name {
+        font-size: 12px;
+    }
+    .author-name {
+		font-size: 10px;
+	}
+	a{
+		color: #66A523;
+	}
+    .instructions {
+        font-style:italic;
+        font-size:22px;
+        margin-bottom:10px;
+    }
+    .iconsuse {
+        font-size:22px;
+        font-style:italic;
+        padding-top:20px;
+        margin-top:20px;
+        border-top:1px solid #bbb;
+    }
+    .usetitle {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-style: italic;
+    }
+    .class-name:last-child {
+        font-size: 10px;
+        color:#888;
+    }
+    .class-name:last-child a {
+        font-size: 10px;
+        color:#555;
+    }
+    .class-name:last-child a:hover {
+        color:#66A523;
+    }
+    .glyph > input {
+        display: block;
+        width: 100px;
+        margin: 5px auto;
+        text-align: center;
+        font-size: 12px;
+        cursor: text;
+    }
+    .glyph > input.icon-input {
+        font-family:"Flaticon";
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    h1.logo {
+        font-size: 40px;
+        letter-spacing: -1px;
+        margin-top: -16px;
+        text-transform: lowercase;
+        border-bottom:1px solid #bbb;
+    }
+    h1.logo strong {
+        font-size: 16px;
+        font-family:sans-serif;
+        font-weight:normal;
+        color:#333;
+    }
+    h1.logo a {
+        color:#34302d;
+        text-decoration: none;
+    }
+    h1.logo a span {
+        color:#66A523;
+    }
+    #footer {
+        padding-top:40px;
+        clear:both;
+        text-align:center;
+    }
+    #footer a {
+        color:#66A523;
+    }
+    textarea {
+		margin: 0px;
+		width: 800px;
+		height: 150px;
+		border: 1px solid #CCC;
+		resize: none;
+		background: #EEE;
+    }
+    .author-link, .attrDiv a{
+    	font-size: 12px;
+    	color: #333;
+    	text-decoration: none;
+    }
+    .external {
+    	display: block;
+    }
+    .attrDiv {
+		font-size: 12px;
+	}
+    .attribution {
+        border-top: 1px solid #AAA;
+        margin: 10px 0;
+        padding-top: 15px;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">
+            <a href="http://www.flaticon.com">
+                <span>FLAT</span>ICON</a>
+            <strong>Font Demo</strong>
+        </h1>
+    </header>
+
+    <section class="demo">
+        <div class="text">
+
+            <div class="instructions">Instructions:</div>
+
+            <ul>
+                <li>
+                    <p>
+                        <span class="num">1</span>Copy the "Fonts" files and CSS files to your website CSS folder.
+                </li>
+                <li>
+                    <p>
+                        <span class="num">2</span>Add the CSS link to your website source code on header.
+                        <br />
+                        <span class="ex">&lt;head&gt;
+                            <br/>...
+                            <br/>&lt;link rel="stylesheet" type="text/css" href="your_website_domain/css_root/flaticon.css"&gt;
+                            <br/>...
+                            <br/>&lt;/head&gt;</span>
+                </li>
+
+                <li>
+                    <p>
+                        <span class="num">3</span>Use the icon class on "display:inline" elements:
+                        <br />
+                        <span class="ex">Use example: &lt;i class=&quot;flaticon-airplane49&quot;&gt;&lt;/i&gt; or &lt;span class=&quot;flaticon-airplane49&quot;&gt;&lt;/span&gt;</span>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="glyphs"><div class="glyph">
+		<div class="glyph-icon flaticon-amplified"></div>
+		<div class="class-name">.flaticon-amplified</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/amplified-speaker_23181">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow434"></div>
+		<div class="class-name">.flaticon-arrow434</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-outline-pointing-to-the-right_23252">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow435"></div>
+		<div class="class-name">.flaticon-arrow435</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-to-the-left-outline_23287">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow436"></div>
+		<div class="class-name">.flaticon-arrow436</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-heads-forming-a-star-shape_23288">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrow437"></div>
+		<div class="class-name">.flaticon-arrow437</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrow-head-to-the-right_23433">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-arrowhead4"></div>
+		<div class="class-name">.flaticon-arrowhead4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/arrowhead-outline-pointing-to-the-left_23277">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-audio28"></div>
+		<div class="class-name">.flaticon-audio28</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/audio-headphones_23273">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-battery74"></div>
+		<div class="class-name">.flaticon-battery74</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/battery-charging-status_23214">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-big80"></div>
+		<div class="class-name">.flaticon-big80</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/big-paperclip_23188">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-big81"></div>
+		<div class="class-name">.flaticon-big81</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/big-map-locator_23431">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-blank20"></div>
+		<div class="class-name">.flaticon-blank20</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/blank-tag_23186">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-camera43"></div>
+		<div class="class-name">.flaticon-camera43</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/camera-with-lens-outline_23268">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cassette7"></div>
+		<div class="class-name">.flaticon-cassette7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cassette-music-tape-outline_23193">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cinema13"></div>
+		<div class="class-name">.flaticon-cinema13</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cinema-reel-video-camera_23179">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-circular45"></div>
+		<div class="class-name">.flaticon-circular45</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/championship-trophy_23185">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-circular46"></div>
+		<div class="class-name">.flaticon-circular46</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/circular-design_23197">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-circular47"></div>
+		<div class="class-name">.flaticon-circular47</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/circular-design-with-crown_23226">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-circular48"></div>
+		<div class="class-name">.flaticon-circular48</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/circular-arrow_23235">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-circular49"></div>
+		<div class="class-name">.flaticon-circular49</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/circular-crosshair-variant_23246">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-circular50"></div>
+		<div class="class-name">.flaticon-circular50</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/circular-art-deco-design_23264">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cloud102"></div>
+		<div class="class-name">.flaticon-cloud102</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cloud-outline-with-thunderbolt_23205">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cloudy12"></div>
+		<div class="class-name">.flaticon-cloudy12</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cloudy-day-with-sun_23261">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-coffee17"></div>
+		<div class="class-name">.flaticon-coffee17</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/coffee-cup-outline_23208">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cogwheel8"></div>
+		<div class="class-name">.flaticon-cogwheel8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cogwheel-machine-part-outline_23178">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-compact8"></div>
+		<div class="class-name">.flaticon-compact8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/compact-disc-outline_23176">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-compass39"></div>
+		<div class="class-name">.flaticon-compass39</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/compass-for-directions_23231">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-connected8"></div>
+		<div class="class-name">.flaticon-connected8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/connected-circular-chains_23251">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-crop2"></div>
+		<div class="class-name">.flaticon-crop2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/crop-tool_23222">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cross39"></div>
+		<div class="class-name">.flaticon-cross39</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cross-mark-outline_23224">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-curve19"></div>
+		<div class="class-name">.flaticon-curve19</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/curve-arrows-to-the-left-and-right_23211">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-diamond18"></div>
+		<div class="class-name">.flaticon-diamond18</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/diamond-shape_23270">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-document58"></div>
+		<div class="class-name">.flaticon-document58</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/document-with-content_23262">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-dollar79"></div>
+		<div class="class-name">.flaticon-dollar79</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/dollar-symbol-outlined_23241">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-door7"></div>
+		<div class="class-name">.flaticon-door7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/door-hanger-outline_23289">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-double23"></div>
+		<div class="class-name">.flaticon-double23</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/double-musical-note-outline_23196">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-double24"></div>
+		<div class="class-name">.flaticon-double24</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/double-arrow-outlines-pointing-to-the-left-and-right_23280">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-downloading3"></div>
+		<div class="class-name">.flaticon-downloading3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/downloading-symbol_23285">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-drawing4"></div>
+		<div class="class-name">.flaticon-drawing4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/drawing-pencil-outline_23187">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-empty20"></div>
+		<div class="class-name">.flaticon-empty20</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/empty-battery-outline_23244">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-eyes"></div>
+		<div class="class-name">.flaticon-eyes</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/eyes-outline_23259">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-fast10"></div>
+		<div class="class-name">.flaticon-fast10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/fast-forward-button-in-a-circular-border_23213">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-fast11"></div>
+		<div class="class-name">.flaticon-fast11</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/fast-forward-button-outline_23266">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-file24"></div>
+		<div class="class-name">.flaticon-file24</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/file-organizers_23275">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-film24"></div>
+		<div class="class-name">.flaticon-film24</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/film-camera-outline_23284">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-fire13"></div>
+		<div class="class-name">.flaticon-fire13</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/fire-flame-outline_23236">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-flag26"></div>
+		<div class="class-name">.flaticon-flag26</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/flag-with-flatpole_23298">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-flat10"></div>
+		<div class="class-name">.flaticon-flat10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/flat-screen-cellphone-outline_23200">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-fluff1"></div>
+		<div class="class-name">.flaticon-fluff1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/fluff-cloud-outline_23265">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-four26"></div>
+		<div class="class-name">.flaticon-four26</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/four-rounded-squares_23182">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-full21"></div>
+		<div class="class-name">.flaticon-full21</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/full-charged-battery-status_23216">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-grocery10"></div>
+		<div class="class-name">.flaticon-grocery10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/grocery-shopping-cart_23258">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-half11"></div>
+		<div class="class-name">.flaticon-half11</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/half-battery-charging-status_23203">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-heart66"></div>
+		<div class="class-name">.flaticon-heart66</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/heart-shaped-outline_23227">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-home62"></div>
+		<div class="class-name">.flaticon-home62</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/home-outline_23282">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-huge3"></div>
+		<div class="class-name">.flaticon-huge3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/thunderbolt-huge-outline_23238">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-increasing5"></div>
+		<div class="class-name">.flaticon-increasing5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/increasing-line-graph-report_23192">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-kings"></div>
+		<div class="class-name">.flaticon-kings</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/kings-crown-outline_23177">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-letter11"></div>
+		<div class="class-name">.flaticon-letter11</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/letter-stamp-outline_23229">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-light44"></div>
+		<div class="class-name">.flaticon-light44</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/light-bulb-thick-outline_23175">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-lines"></div>
+		<div class="class-name">.flaticon-lines</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/lines-squares-and-circular-shapes-design_23269">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-low20"></div>
+		<div class="class-name">.flaticon-low20</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/low-battery-status-needs-charging_23237">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-magnification3"></div>
+		<div class="class-name">.flaticon-magnification3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/magnification-lens-with-handle-outline_23195">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-maps5"></div>
+		<div class="class-name">.flaticon-maps5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/maps-symbol_23255">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-mathematical3"></div>
+		<div class="class-name">.flaticon-mathematical3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/mathematical-operations-in-paper-board_23243">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-microphone26"></div>
+		<div class="class-name">.flaticon-microphone26</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/microphone-recorder-outline_23253">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-molecular"></div>
+		<div class="class-name">.flaticon-molecular</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/molecular-structure_23233">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-multiple18"></div>
+		<div class="class-name">.flaticon-multiple18</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/multiple-line-outlines_23206">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-music63"></div>
+		<div class="class-name">.flaticon-music63</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/music-controller_23267">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-mute7"></div>
+		<div class="class-name">.flaticon-mute7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/mute-button_23257">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-navigation8"></div>
+		<div class="class-name">.flaticon-navigation8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/navigation-arrows-outline_23183">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-newspaper8"></div>
+		<div class="class-name">.flaticon-newspaper8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/newspaper-page_23286">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-no16"></div>
+		<div class="class-name">.flaticon-no16</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/no-protection_23245">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-open89"></div>
+		<div class="class-name">.flaticon-open89</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/padlock-open-with-keyhole_23278">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-open90"></div>
+		<div class="class-name">.flaticon-open90</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/open-folder-with-label-outline_23281">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-padlock18"></div>
+		<div class="class-name">.flaticon-padlock18</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/padlock-with-keyhole_23274">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-paint26"></div>
+		<div class="class-name">.flaticon-paint26</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/paint-brush-outline_23232">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-paper43"></div>
+		<div class="class-name">.flaticon-paper43</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/paper-tray-outline_23207">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-paper44"></div>
+		<div class="class-name">.flaticon-paper44</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/paper-plane_23296">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-personal5"></div>
+		<div class="class-name">.flaticon-personal5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/personal-computer-screen_23247">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-phone51"></div>
+		<div class="class-name">.flaticon-phone51</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/phone-auricular-outline_23199">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-picture10"></div>
+		<div class="class-name">.flaticon-picture10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/picture-with-frame-outline_23189">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-plant10"></div>
+		<div class="class-name">.flaticon-plant10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/plant-leaf-outline_23272">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-play35"></div>
+		<div class="class-name">.flaticon-play35</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/play-button_23260">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-previous6"></div>
+		<div class="class-name">.flaticon-previous6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/previous-button_23254">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-profile7"></div>
+		<div class="class-name">.flaticon-profile7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/profile-user-outline_23228">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-public5"></div>
+		<div class="class-name">.flaticon-public5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/public-wall-mount-speaker_23432">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-rainy5"></div>
+		<div class="class-name">.flaticon-rainy5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/rainy-day_23239">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-religion1"></div>
+		<div class="class-name">.flaticon-religion1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/religion-stained-glass_23174">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-rewind22"></div>
+		<div class="class-name">.flaticon-rewind22</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/rewind-button-in-a-circular-border_23210">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-rotating10"></div>
+		<div class="class-name">.flaticon-rotating10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/rotating-double-arrows-in-a-broken-circle-outline_23209">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-rotating9"></div>
+		<div class="class-name">.flaticon-rotating9</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/rotating-double-arrow-with-white-arrowhead_23180">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-round30"></div>
+		<div class="class-name">.flaticon-round30</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/round-squares_23190">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-round31"></div>
+		<div class="class-name">.flaticon-round31</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/round-socket-outline_23204">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-rounded25"></div>
+		<div class="class-name">.flaticon-rounded25</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/rounded-check-mark-outline_23202">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-rounded26"></div>
+		<div class="class-name">.flaticon-rounded26</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/rounded-square-envelope_23215">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-royalty"></div>
+		<div class="class-name">.flaticon-royalty</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/royalty-design-shield_23219">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-scissors14"></div>
+		<div class="class-name">.flaticon-scissors14</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/scissors-outlined_23297">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-shopping63"></div>
+		<div class="class-name">.flaticon-shopping63</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/shopping-paper-bag-outline_23256">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-signal21"></div>
+		<div class="class-name">.flaticon-signal21</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/signal-coverage-status_23218">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-simple47"></div>
+		<div class="class-name">.flaticon-simple47</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/simple-circular-clock_23198">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-small139"></div>
+		<div class="class-name">.flaticon-small139</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/small-circle-with-a-circular-border_23230">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-snowflake3"></div>
+		<div class="class-name">.flaticon-snowflake3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/snowflake-lined_23250">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-speech54"></div>
+		<div class="class-name">.flaticon-speech54</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/speech-balloon-with-conversational-dots_23184">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-spring11"></div>
+		<div class="class-name">.flaticon-spring11</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/spring-square-calendar-outline_23212">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-square51"></div>
+		<div class="class-name">.flaticon-square51</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/square-with-small-square-corners_23201">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-square52"></div>
+		<div class="class-name">.flaticon-square52</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/square-layout_23217">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-square53"></div>
+		<div class="class-name">.flaticon-square53</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/square-broken-lines-outline_23220">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-square54"></div>
+		<div class="class-name">.flaticon-square54</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/speech-balloon-square-outline_23223">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-square55"></div>
+		<div class="class-name">.flaticon-square55</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/square-wallet-outline_23240">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-square56"></div>
+		<div class="class-name">.flaticon-square56</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/square-speech-balloons-with-conversation-dots_23263">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-square57"></div>
+		<div class="class-name">.flaticon-square57</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/rectangles-connected-by-broken-lines_23276">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-stop20"></div>
+		<div class="class-name">.flaticon-stop20</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/stop-button_23249">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-sun30"></div>
+		<div class="class-name">.flaticon-sun30</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/sun-with-rays-outline_23221">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-syncing"></div>
+		<div class="class-name">.flaticon-syncing</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/syncing-button_23225">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-telephone63"></div>
+		<div class="class-name">.flaticon-telephone63</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/telephone-receiver-outline_23194">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-trash27"></div>
+		<div class="class-name">.flaticon-trash27</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/trash-bin-outline-with-cover_23271">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-triangle14"></div>
+		<div class="class-name">.flaticon-triangle14</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/triangle-outline-inside-a-circle-button_23234">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-tshirt14"></div>
+		<div class="class-name">.flaticon-tshirt14</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/t-shirt-with-mark-outline_23248">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-umbrella14"></div>
+		<div class="class-name">.flaticon-umbrella14</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/umbrella-tool-outline_23279">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-user73"></div>
+		<div class="class-name">.flaticon-user73</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/user-outline-with-shadow_23191">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-wide6"></div>
+		<div class="class-name">.flaticon-wide6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/wide-flat-screen-laptop_23283">Situ Herrera</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-world29"></div>
+		<div class="class-name">.flaticon-world29</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/world-wide-web-globe_23242">Situ Herrera</a></div></div></section>
+
+<section class="attribution">
+
+	<div class="usetitle">License and attribution:</div><div class="attrDiv">Font generated by <a href="http://www.flaticon.com">flaticon.com</a>
+ under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY</a>. The authors are: <a href="http://www.rivolta.es">Situ Herrera</a>.</div><div class="usetitle">Copy the Attribution License:</div>
+
+<textarea onclick="this.focus();this.select();">Font generated by &lt;a href=&quot;http://www.flaticon.com&quot;&gt;flaticon.com&lt;/a&gt;
+ under &lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/&quot;&gt;CC BY&lt;/a&gt;. The authors are: &lt;a href=&quot;http://www.rivolta.es&quot;&gt;Situ Herrera&lt;/a&gt;.</textarea>
+
+</section>
+
+<section class="iconsuse">
+    	<div class="usetitle">Examples:</div>
+		<div class="image"><p>&lt;i class=&quot;flaticon-amplified&quot;&gt;&lt;/i&gt; <i class="flaticon-amplified"></i></p><p>&lt;i class=&quot;flaticon-arrow434&quot;&gt;&lt;/i&gt; <i class="flaticon-arrow434"></i></p><p>&lt;i class=&quot;flaticon-arrow435&quot;&gt;&lt;/i&gt; <i class="flaticon-arrow435"></i></p><p>&lt;i class=&quot;flaticon-arrow436&quot;&gt;&lt;/i&gt; <i class="flaticon-arrow436"></i></p><p>&lt;i class=&quot;flaticon-arrow437&quot;&gt;&lt;/i&gt; <i class="flaticon-arrow437"></i></p></div><div class="image"><p>&lt;span class=&quot;flaticon-arrowhead4&quot;&gt;&lt;/span&gt; <span class="flaticon-arrowhead4"></span></p><p>&lt;span class=&quot;flaticon-audio28&quot;&gt;&lt;/span&gt; <span class="flaticon-audio28"></span></p><p>&lt;span class=&quot;flaticon-battery74&quot;&gt;&lt;/span&gt; <span class="flaticon-battery74"></span></p><p>&lt;span class=&quot;flaticon-big80&quot;&gt;&lt;/span&gt; <span class="flaticon-big80"></span></p><p>&lt;span class=&quot;flaticon-big81&quot;&gt;&lt;/span&gt; <span class="flaticon-big81"></span></p></div><div class="image"><p>&lt;span class=&quot;flaticon-blank20&quot;&gt;&lt;/span&gt; <span class="flaticon-blank20"></span></p><p>&lt;i class=&quot;flaticon-camera43&quot;&gt;&lt;/i&gt; <i class="flaticon-camera43"></i></p><p>&lt;i class=&quot;flaticon-cassette7&quot;&gt;&lt;/i&gt; <i class="flaticon-cassette7"></i></p><p>&lt;i class=&quot;flaticon-cinema13&quot;&gt;&lt;/i&gt; <i class="flaticon-cinema13"></i></p><p>&lt;i class=&quot;flaticon-circular45&quot;&gt;&lt;/i&gt; <i class="flaticon-circular45"></i></p></div><div class="image"><p>&lt;span class=&quot;flaticon-circular46&quot;&gt;&lt;/span&gt; <span class="flaticon-circular46"></span></p><p>&lt;span class=&quot;flaticon-circular47&quot;&gt;&lt;/span&gt; <span class="flaticon-circular47"></span></p><p>&lt;span class=&quot;flaticon-circular48&quot;&gt;&lt;/span&gt; <span class="flaticon-circular48"></span></p><p>&lt;span class=&quot;flaticon-circular49&quot;&gt;&lt;/span&gt; <span class="flaticon-circular49"></span></p><p>&lt;span class=&quot;flaticon-circular50&quot;&gt;&lt;/span&gt; <span class="flaticon-circular50"></span></p></div><div class="image"></div>
+</section>
+<div id="footer">
+    <div>Generated by <a href="http://www.flaticon.com">flaticon.com</a>
+    </div>
+</div>
+	</body>
+</html>
